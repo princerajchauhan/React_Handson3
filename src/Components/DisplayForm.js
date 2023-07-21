@@ -13,9 +13,9 @@ class DisplayForm extends Component {
                         this.props.value.EmpData.map((element, index) => {
                             return (
                                     <div key={index} id="elementData">
-                                        <span>Name : {element.name} | </span>
-                                        <span>Department : {element.Dept} | </span>
-                                        <span>Rating : {element.Rate}</span>
+                                        <span>Name: {element.name} | </span>
+                                        <span>Department: {element.Dept} | </span>
+                                        <span>Rating: {element.Rate}</span>
                                     </div>
                             )
                         })
